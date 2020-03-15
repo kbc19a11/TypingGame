@@ -3,7 +3,7 @@ body{
     padding-top: 100px;
     font-family: 'Courier New', monospace;
     text-align: center; 
-    background-image: url(../backimage.jpg); 
+    background-image: url(backimage.jpg); 
 }
 #target{
     font-size: 48px;

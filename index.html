@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="icon.svg">
+</head>
+<body>
+    <audio id="music">
+    <source src="botton05.mov" type="audio/mpeg">
+    </audio>
+    <audio id="music1">
+        <source src="button01b.mp3" type="audio/mpeg">
+    </audio>
+        <p id="target">click to start</p>
+        <p class="info">
+            Letter count: <span id="score">0</span>,
+            Miss count: <span id="miss">0</span>,
+            Time left: <span id="timer">0.00</span>
+        </p>
+        <div id="gap">
+            <meter class="test" min="0" max="30" low="10" high="20" value="0" id="gaji"></meter>
+            <p><span id="puls">+5s</span></p>
+        </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

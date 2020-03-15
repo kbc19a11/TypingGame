@@ -1,0 +1,31 @@
+
+body{
+    padding-top: 100px;
+    font-family: 'Courier New', monospace;
+    text-align: center; 
+    background-image: url(../backimage.jpg); 
+}
+#target{
+    font-size: 48px;
+    letter-spacing: 3px;
+    color: #ccc; 
+    cursor: pointer;
+}
+.info{
+    color: #888;
+    margin-bottom: 40px;
+}
+#gaji{
+    margin: 0 auto;
+    width: 150px;
+}
+
+#puls{
+    color:rgb(255, 0, 0);
+    font-size: 1.5em;
+    margin-left: 30px;
+    position: relative;
+    bottom: 39px;
+    left : 120px;
+    display: none;
+}
